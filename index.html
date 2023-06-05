@@ -1,0 +1,71 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <style>
+      .margin{
+        
+      }
+    </style>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Bootstrap demo</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-9ndCyUaIbzAi2FUVXJi0CjmCapSmO7SnpJef0486qhLnuZ2cdeRhO02iuK6FUUVM" crossorigin="anonymous">
+  </head>
+  <body >
+    <center><img src="https://www.shutterstock.com/image-vector/welcome-calligraphic-inscription-smooth-lines-260nw-1721907835.jpg" alt="" style="flex: 1px;"></center>
+ 
+    <div class="container-fluid" style="background-color: aqua; height: 290pt; margin-top: 0%;">
+      <div class="row">
+        <div class="col-12 mt-5">
+          <p class="text-body-secondary text-center" style="font-size: 19pt;">Would you like to play rock,paper,scissor with Parlee? if yes click it.. AND i have never lose any round</p>
+         
+        </div>
+      </div>
+      <div class="row  justifly-content-md-center">
+        <div class="col-4">
+        </div>
+        <div class="col-4">
+          <form class="form-inline">
+          <div class="form-group">
+            
+            <input type="text" class="form-control" id="inputPassword2" style="text-align: center;"  placeholder="Enter rock,paper or scissor" >
+          </div></form></div>
+          <div class="col-4">
+
+          </div>
+          
+        </div>
+        <center><P><button type="button" class="btn btn-outline-secondary mt-3" onclick="fun()">SUBMIT</button></P></center>
+
+      </div>
+    
+   
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-geWF76RCwLtnZ8qwWowPQNguL3RmwHVBC9FhGdlKrxdiJJigb/j/68SIy3Te4Bkz" crossorigin="anonymous"></script>
+    <script>
+      
+
+      function fun() {
+      
+    
+ 
+      let a = document.getElementById('inputPassword2');
+      let b= a.value.length;
+ 
+ if (b==4){
+   document.write('<center><font size="12pt">i shoot paper .you lose ');
+ }
+ else if(b==5){
+   document.write('<center><font size="12pt">i shoot scissor .you lose . hehe,');
+ }
+ else if (b==7){
+   document.write('<center><font size="12pt">i shoot rock .you lose kiddo .,');
+ }
+else {
+ document.write('<center><font size="12pt">check your spelling agian boi');
+}
+}
+
+
+    </script>
+  </body>
+</html>
